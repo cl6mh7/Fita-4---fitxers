@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.teahub.io/photos/full/82-824687_landscape-gif.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(46, 119, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.whitesquare {
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 1px solid rgba(255, 255, 255, 0.719);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Sevillana', cursive;
+    font-size: 25px;
+    text-shadow: .6px .6px rgb(0, 0, .6);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(46, 119, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+
+a:hover{
+    background-color: rgba(202, 248, 188, 0.87);
+    border: 1px solid rgba(202, 248, 188, 0);
+    border-radius: 20px;
+    transition-duration: 1s;
+    color: rgb(28, 87, 16);
+}
+
+.numbers{
+    margin-bottom: 10px;
+}
